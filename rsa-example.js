@@ -15,7 +15,7 @@ const { privateKey, publicKey } = crypto.generateKeyPairSync('rsa', {
 
 const message = 'Tapesh sharma';
 
-// Encrypt using private key and decrypt using public key
+
 console.log(privateKey);
 console.log(publicKey);
 const encryptedPrivate = crypto.privateEncrypt(privateKey, Buffer.from(message));
